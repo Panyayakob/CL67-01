@@ -1,5 +1,8 @@
 #include <stdio.h>
-main()
+int main()
 {
-  printf("hello,[ปัญญา]\n");
+  char ปัญญา[100];
+  print("What is your name?\t");
+  scanf("%s",ปัญญา);
+  print("hello,%\n",ปัญญา);
 }
