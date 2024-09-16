@@ -2,7 +2,8 @@
 int main()
 {
   char ปัญญา[100];
-  print("What is your name?\t");
+  printf("What is your name?\t");
   scanf("%s",ปัญญา);
-  print("hello,%\n",ปัญญา);
+  printf("hello,%\n",ปัญญา);
+  printf("Goodbye\n');
 }
